@@ -29,8 +29,9 @@ module.exports = {
     'spaced-comment': 'error',
     quotes: ['error', 'single'],
     'no-duplicate-imports': 'error',
-    'prettier/prettier': {
-      error: {
+    'prettier/prettier': [
+      2,
+      {
         printWidth: 80,
         tabWidth: 2,
         useTabs: false,
@@ -41,7 +42,7 @@ module.exports = {
         bracketSpacing: true,
         arrowParens: 'always',
       },
-    },
+    ],
   },
   settings: {
     'import/resolver': {

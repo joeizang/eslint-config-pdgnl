@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pdgnl",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "eslint prettier typescript config for react projects",
   "main": "index.js",
   "peerDependencies": {
@@ -16,9 +16,15 @@
     "prettier": "^2.6.2",
     "eslint": "^8.17.0"
   },
-  "files": [
-    
-  ],
+  "files": [],
   "author": "josephizang",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:joeizang/eslint-config-pdgnl.git"
+  },
+  "bugs": {
+    "url": "https://github.com:joeizang/eslint-config-pdgnl/issues"
+  },
+  "homepage": "https://github.com:joeizang/eslint-config-pdgnl#readme"
 }
