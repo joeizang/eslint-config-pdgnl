@@ -25,7 +25,6 @@ module.exports = {
   rules: {
     'react/react-in-jsx-scope': 'off',
     'react-hooks/rules-of-hooks': 2,
-    'spaced-comment': 'error',
     quotes: ['error', 'single'],
     'no-duplicate-imports': 'error',
     'prettier/prettier': [
@@ -37,7 +36,6 @@ module.exports = {
         semi: false,
         singleQuote: true,
         trailingComma: 'all',
-        endOfLine: 'lf',
         bracketSpacing: true,
         arrowParens: 'always',
       },
